@@ -4,7 +4,7 @@ import pahamify from '../Assets/pahamify.png'
 
 export default function Media() {
   return (
-    <div className='lineup'>
+    <div className='lineup overflow-auto min-[300px]:pt-[130px] md:pt-[150px]'>
       <Navbar />
       <div className='flex items-center justify-center h-screen'>
         <img src={pahamify} alt="" />

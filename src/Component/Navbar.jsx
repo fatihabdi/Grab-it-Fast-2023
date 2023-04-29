@@ -4,6 +4,7 @@ import telkom from "../Assets/telkom.png";
 import forcy from "../Assets/forcy.png";
 import gif from "../Assets/gif.png";
 import navmobile from "../Assets/navmobile.png";
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -109,6 +110,7 @@ export default function Navbar() {
       </button>
       {open && (
         <div className="fixed top-0 left-0 z-10 flex flex-col gap-[11px] items-center justify-center w-full h-full bg-[#299CCB] border-[8px] border-[#35140F]">
+          <AiOutlineClose onClick={handleOpen} className="absolute top-0 right-0 m-[20px] text-[25px] cursor-pointer" />
           <Link to="/">
             <div className="border-[5px] border-[#000000] w-[201px] h-[59px] flex justify-center items-center">
               <h1

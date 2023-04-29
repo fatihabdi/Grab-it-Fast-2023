@@ -15,7 +15,7 @@ export default function Mascot() {
   return (
     <div className="overflow-auto lineup">
       <Navbar />
-      <div className="flex flex-col md:h-screen items-center pt-[130px] justify-center">
+      <div className="flex flex-col md:h-screen items-center min-[300px]:pt-[130px] md:pt-[150px] justify-center">
         {/* <h1 className='uppercase font-Normal lg:text-[64px] lg:font-outline-4 text-transparent bg-clip-text bg-gradient-to-b from-white to-[#FFC700] tracking-tighter'>introducing our mascot</h1> */}
         <img src={judulmascot} className="hidden md:block" alt="" />
         <img src={judulmascotmobile} className="md:hidden" alt="" />
