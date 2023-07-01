@@ -9,10 +9,10 @@ export default function Sponsorship() {
     <div className='border-[10px] border-white w-full h-[400px] bg-[#BCA7D0]'>
       <h1 className='font-Normal lg:text-[40px] min-[300px]:text-[20px] text-white text-center font-outline-1-purple font-bold mt-[10px]'>Sponsorship</h1>
       <div className='flex items-center justify-center gap-[30px] mt-5'>
-        <img src={emina} alt="" />
-        <img src={pahamify} alt="" />
-        <img src={hydrococo} alt="" />
-        <img src={photoplace} alt="" />
+        <img src={emina} alt="" className='min-[300px]:w-[59px] lg:w-[210px]' />
+        <img src={pahamify} alt="" className='min-[300px]:w-[59px] lg:w-[210px]' />
+        <img src={hydrococo} alt="" className='min-[300px]:w-[59px] lg:w-[210px]' />
+        <img src={photoplace} alt="" className='min-[300px]:w-[59px] lg:w-[189px]' />
       </div>
     </div>
   )

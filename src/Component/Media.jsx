@@ -33,34 +33,34 @@ export default function Media() {
       <h1 className="font-Normal lg:text-[40px] min-[300px]:text-[20px] text-white text-center font-outline-1-purple2 font-bold pt-[10px]">
         Media Partner
       </h1>
-      <div className='flex flex-wrap items-center justify-start gap-[10px] mt-8 pr-[118px] pl-[125px]'>
-        <img src={temantulus} alt="" />
-        <img src={bogor_update} alt="" />
-        <img src={Bogor24update} alt="" />
-        <img src={Bogorfess} alt="" />
-        <img src={Enjoybogor} alt="" />
-        <img src={konserhariini} alt="" />
-        <img src={ikomchannel} alt="" />
-        <img src={ilusiindie} alt="" />
-        <img src={eventsaurus} alt="" />
-        <img src={r1077fm} alt="" />
-        <img src={infoselanjutnya} alt="" />
-        <img src={Concertmusic} alt="" />
-        <img src={Eventfest} alt="" />
-        <img src={Eventcampus} alt="" />
-        <img src={Infoevent} alt="" />
-        <img src={Konser_jabodetabek} alt="" />
-        <img src={infogigsjabodetabek} alt="" />
-        <img src={Mediaevent} alt="" />
-        <img src={Motauevent} alt="" />
-        <img src={Alaempensi} alt="" />
-        <img src={Madingevent} alt="" />
-        <img src={Communalmedia} alt="" />
-        <img src={Forpeople} alt="" />
-        <img src={Partnerevent} alt="" />
-        <img src={Terasevent} alt="" />
-        <img src={Seputarevent} alt="" />
-        <img src={Seputar} alt="" />
+      <div className='flex flex-wrap items-center justify-start gap-[10px] mt-8 lg:pr-[118px] lg:pl-[125px] min-[300px]:px-[20px]'>
+        <img src={temantulus} alt="" className="max-[390px]:w-[23px] " />
+        <img src={bogor_update} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Bogor24update} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Bogorfess} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Enjoybogor} alt="" className="max-[390px]:w-[23px] " />
+        <img src={konserhariini} alt="" className="max-[390px]:w-[23px] " />
+        <img src={ikomchannel} alt="" className="max-[390px]:w-[23px] " />
+        <img src={ilusiindie} alt="" className="max-[390px]:w-[23px] " />
+        <img src={eventsaurus} alt="" className="max-[390px]:w-[23px] " />
+        <img src={r1077fm} alt="" className="max-[390px]:w-[23px] " />
+        <img src={infoselanjutnya} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Concertmusic} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Eventfest} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Eventcampus} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Infoevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Konser_jabodetabek} alt="" className="max-[390px]:w-[23px] " />
+        <img src={infogigsjabodetabek} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Mediaevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Motauevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Alaempensi} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Madingevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Communalmedia} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Forpeople} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Partnerevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Terasevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Seputarevent} alt="" className="max-[390px]:w-[23px] " />
+        <img src={Seputar} alt="" className="max-[390px]:w-[23px] " />
       </div>
     </div>
   );
