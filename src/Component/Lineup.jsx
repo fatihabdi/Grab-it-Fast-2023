@@ -1,7 +1,10 @@
 import React from 'react'
 import { ScrollingCarousel } from '@trendyol-js/react-carousel';
 // import guest from '../Assets/guest.png'
-import CardLineUp from './CardLineUp';
+import CardLineUp from './CardLineUp/CardLineUp';
+import CardLineUp2 from './CardLineUp/CardLineUp2';
+import CardLineUp3 from './CardLineUp/CardLineUp3';
+import CardLineUp4 from './CardLineUp/CardLineUp4';
 
 export default function Lineup() {
   return (
@@ -14,9 +17,9 @@ export default function Lineup() {
       <div className='lg:pl-[98px] min-[300px]:pl-[20px] pb-[125px]'>
         <ScrollingCarousel>
           <CardLineUp />
-          <CardLineUp />
-          <CardLineUp />
-          <CardLineUp />
+          <CardLineUp2 />
+          <CardLineUp3 />
+          <CardLineUp4 />
         </ScrollingCarousel>
       </div>
     </div>
