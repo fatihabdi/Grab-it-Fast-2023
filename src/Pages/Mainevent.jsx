@@ -22,17 +22,17 @@ export default function Mainevent() {
       <div className="flex flex-col items-center justify-center w-full">
         <img
           src={miniexpo}
-          className="lg:w-[1223px] lg:h-[673px] md:mt-[80px] min-[300px]:mt-[44px]"
+          className="lg:w-[1223px] lg:h-[673px] md:mt-[80px] max-md:mt-[44px]"
           alt=""
         />
         <img
           src={seminar}
-          className="lg:w-[1223px] lg:h-[673px] md:mt-[80px] min-[300px]:mt-[8px]"
+          className="lg:w-[1223px] lg:h-[673px] md:mt-[80px] max-md:mt-[8px]"
           alt=""
         />
         <img
           src={musiccomp}
-          className="lg:w-[1223px] lg:h-[673px] md:mt-[80px] min-[300px]:mt-[8px]"
+          className="lg:w-[1223px] lg:h-[673px] md:mt-[80px] max-md:mt-[8px]"
           alt=""
         />
       </div>

@@ -1,29 +1,25 @@
 import React, { useState, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
-export default function CardMascot(props) {
-  const [ishover, sethover] = useState(false);
+export default function CardPageLineUp(props) {
+  // const [ishover, sethover] = useState(false);
   let [isOpen, setIsOpen] = useState(false);
 
-  function MouseOver() {
-    sethover(true);
-  }
-  function MouseOut() {
-    sethover(false);
-  }
+  // function MouseOver() {
+  //   sethover(true);
+  // }
+  // function MouseOut() {
+  //   sethover(false);
+  // }
   return (
     <>
-      <div onMouseOver={MouseOver} onMouseOut={MouseOut}>
-        {ishover ? (
-          <img
-            src={props.imghover}
-            onClick={() => setIsOpen(true)}
-            className=""
-            alt=""
-          />
-        ) : (
-          <img src={props.img} className="max-[768px]:w-[220px]" alt="" />
-        )}
+      <div className="">
+        <img
+          src={props.img}
+          onClick={() => setIsOpen(true)}
+          className=""
+          alt=""
+        />
         <Transition
           show={isOpen}
           enter="transition duration-100 ease-out"
@@ -46,11 +42,7 @@ export default function CardMascot(props) {
               />
               <Dialog.Overlay className="fixed inset-0" />
               <div className="z-50">
-                <img
-                  src={props.imghover}
-                  className="max-md:w-[380px] md:w-[463px] min-[1440px]:w-[550px] min-[1920px]:w-[697px]"
-                  alt=""
-                />
+                <img src={props.imghover} className="max-2xl:w-[1000px] mt-10" alt="" />
               </div>
             </div>
           </Dialog>

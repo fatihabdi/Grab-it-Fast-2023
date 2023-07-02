@@ -14,8 +14,8 @@ export default function Navbar() {
     setOpen(!open);
   };
   return (
-    <div className="bg-white z-20 flex justify-between fixed w-full top-0 items-center md:h-[90px] min-[300px]:h-[49px] shadow-lg font-Normal px-[40px] uppercase">
-      <div className="gap-[40px] text-[20px] min-[300px]:hidden lg:flex">
+    <div className="bg-white z-[60] flex justify-between fixed w-full top-0 items-center md:h-[90px] max-md:h-[49px] shadow-lg font-Normal px-[40px] uppercase">
+      <div className="gap-[40px] text-[20px] max-md:hidden lg:flex">
         <Link to="/">
           <h1
             className={`hover:text-[25px] hover:text-yellow-400 hover:font-outline-2 sm:hidden lg:block ${
@@ -105,12 +105,15 @@ export default function Navbar() {
         <img src={forcy} alt="" className="w-10 h-10" />
         <img src={gif} alt="" className="h-10 w-14" />
       </div>
-      <button onClick={handleOpen} className="min-[300px]:block lg:hidden">
+      <button onClick={handleOpen} className="max-md:block lg:hidden">
         <img src={navmobile} alt="" />
       </button>
       {open && (
         <div className="fixed top-0 left-0 z-10 flex flex-col gap-[11px] items-center justify-center w-full h-full bg-[#299CCB] border-[8px] border-[#35140F]">
-          <AiOutlineClose onClick={handleOpen} className="absolute top-0 right-0 m-[20px] text-[25px] cursor-pointer" />
+          <AiOutlineClose
+            onClick={handleOpen}
+            className="absolute top-0 right-0 m-[20px] text-[25px] cursor-pointer"
+          />
           <Link to="/">
             <div className="border-[5px] border-[#000000] w-[201px] h-[59px] flex justify-center items-center">
               <h1

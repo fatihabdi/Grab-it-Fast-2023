@@ -111,7 +111,7 @@
   .home {
     background-image: url("./Assets/LINE\ UP.png");
     background-size: cover;
-    /* height: 300vh; */
+    height: 300vh;
   }
 }
 

@@ -15,8 +15,16 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">
         <Navbar />
         <Hero />
-        <img src={cowo} alt="" className="absolute right-0 mt-[150px] min-[300px]:hidden lg:block" />
-        <img src={cewe} alt="" className="absolute left-0 mt-[150px] min-[300px]:hidden lg:block" />
+        <img
+          src={cowo}
+          alt=""
+          className="absolute right-0 mt-[150px] max-md:hidden lg:block"
+        />
+        <img
+          src={cewe}
+          alt=""
+          className="absolute left-0 mt-[150px] max-md:hidden lg:block"
+        />
       </div>
       <Lineup />
       <Throwback />
